@@ -1,9 +1,10 @@
 @import "base";
+@import "about";
+
 
 .section_color {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
-    
 }
 
 .header {
@@ -31,6 +32,7 @@
         display: flex;
         gap: 14px;
         padding: 5px 2px;
+        z-index: 2;
 
         p {
             @include text_big_p;
@@ -53,6 +55,7 @@
 }
 
 .header_nav {
+    z-index: 2;
 
     a {
         @include text_xs_a;

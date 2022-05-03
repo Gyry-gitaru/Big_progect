@@ -105,6 +105,17 @@ $text_color_pink: #F0145A;
     color: $text_color_white;    
 }
 
+@mixin text_h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: $text_color_white; 
+}
+
 
 
 
