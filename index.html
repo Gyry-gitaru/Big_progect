@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./build/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./slick-example/slick/slick.css">
+    <link rel="stylesheet" href="./slick-example/slick/slick-theme.css">
     <title>Big_progect</title>
 </head>
 <body>
@@ -12,63 +15,79 @@
     <header class="header">
         <div class="header_container">
             <div class="header_logo">
-                <img src="./img/Homepage/Logo.png" alt="logo"/>
+                <div class="header_logo_block">
+                    <div class="header_logo_block_logo">
+                        <img src="./img/Homepage/Logo.png" alt="logo"/>
+                    </div>
+                    <div class="header_logo_block_border">
+                        <svg width="21" height="47" viewBox="0 0 21 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1752 0H21L5.82483 47H0L15.1752 0Z" fill="#F0145A"/>
+                        </svg>
+                    </div>
+                    <div class="header_logo_block_title">
+                        <p>services</p>
+                    </div>
+                </div>
+                <div class="header_container_bottom">
+                    <div class="header_container_bottom_line"></div>
+                </div>
             </div>
-            <div class="header_menu">
-                <div class="header_top">
-                    <div class="language">
+            <div class="block">
+                <div class="block_header">
+                    <div class="block_header_language">
                         <p>УК</p>
                         <p>РУ</p>
                         <p>EN</p> 
                     </div>
-                    <div class="img_dot">
-                        <img src="./img/Homepage/Dot_separator.png" alt="Dot"/>
+                    <div class="block_header_dot">
+                        <div></div>
                     </div>
-                    <div class="adress">
+                    <div class="block_header_adress">
                         <p> Kyiv, Mechnikova str, 14/1 </p>
                     </div>
-                    <div class="img_dot">
-                        <img src="./img/Homepage/Dot_separator.png" alt="Dot"/>
+                    <div class="block_header_dot">
+                        <div></div>
                     </div>
-                    <div class="number">
-                        <p>0800 211 927 </p>
+                    <div class="block_header_number">
+                        <p>0800 211 927</p>
                     </div>
-                    <div class="img_dot">
-                        <img src="./img/Homepage/Dot_separator.png" alt="Dot"/>
+                    <div class="block_header_dot">
+                        <div></div>
                     </div>
-                    <div class="small_logo">
+                    <div class="block_header_small_logo">
                         <img src="./img/Homepage/Facebook-Header.png" alt="Facebook-Header"/>
                     </div>
                 </div>
-                <nav class="header_nav">
-                    <a href="#">about us</a>
-                    <a href="#">services</a>
-                    <a href="#">team</a>
-                    <a href="#">publications</a>
-                    <a href="#">contact</a>
+                <nav class="block_header_nav">
+                    <a href="#" class="block_header_nav_line">about us</a>
+                    <a href="#" class="block_header_nav_line">services</a>
+                    <a href="#" class="block_header_nav_line">team</a>
+                    <a href="#" class="block_header_nav_line">publications</a>
+                    <a href="#" class="block_header_nav_line">contact</a>
                 </nav> 
             </div>
         </div>
     </header>
     <div class="container_top_color">
         <div class="text_centure">
-            <h4>you legal solutions provider</h4>
+            <h4 class="animate__animated animate__flipInX animate__infinite	infinite animate__slow	2s">you legal solutions provider</h4>
         </div>
-
         <div class="icon">
             <div class="circle">
                 <div class="arrow"></div>
             </div>
         </div>
-
         <div class="container_bottom_color">
-            <div class="left_side">
-                <h4 class="gradient">Consistent</h4>
-                <h4>Customer oriented</h4>
-                <h4>Innovative</h4>
-                <h4>Business oriented</h4>
+            <div class="container_bottom_color_left_side">
+                <div class="container_bottom_color_left_side_text">
+                    <h4 class="gradient">Consistent</h4>
+                    <h4>Customer oriented</h4>
+                    <h4>Innovative</h4>
+                    <h4>Business oriented</h4>
+                </div>
             </div>
-            <div class="right_side">
+            <div class="container_bottom_color_line"></div>
+            <div class="container_bottom_color_right_side">
                 <h5>We turn the idea of legal services</h5>
                 <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
             </div>
@@ -94,7 +113,6 @@
                     <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.</p>
                 </div>
             </div>
-
             <div class="title_first">
                 <div class="small_img">
                     <img src="./img/Homepage/Icon2.png" alt="Icon2"/>
@@ -104,7 +122,6 @@
                     <p>In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.</p>
                 </div>
             </div>
-
             <div class="title_first">
                 <div class="small_img">
                     <img src="./img/Homepage/Icon3.png" alt="Icon3"/>
@@ -114,7 +131,6 @@
                     <p>Instead of just providing legal services, we will hire a lawyer or <br/> a whole team that will fit into the daily life of your company.</p>
                 </div>
             </div>
-
             <div class="title_first">
                 <div class="small_img">
                     <img src="./img/Homepage/Icon4.png" alt="Icon6"/>
@@ -124,7 +140,6 @@
                     <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.</p>
                 </div>
             </div>
-
             <div class="title_first">
                 <div class="small_img">
                     <img src="./img/Homepage/Icon5.png" alt="Icon5"/>
@@ -134,7 +149,6 @@
                     <p>And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.</p>
                 </div>
             </div>
-
             <div class="title_first">
                 <div class="small_img">
                     <img src="./img/Homepage/Icon6.png" alt="Icon6"/>
@@ -150,47 +164,96 @@
 <div class="shadow_first"></div>
 <div class="shadow_second"></div>
 <section class="section_second">
-    <div class="container_second">
-        <div class="photo">
-            <img src="./img/Homepage/image.png" alt="image"/>
-        </div>
-        <div class="text_block">
-            <div class="link">
-                <a href="#" class="link_arrow">команда</a>
+    <div class="slider">
+        <div>
+            <div class="container_second">
+                <div class="photo">
+                    <picture>
+                        <source srcset="./img/Homepage/image_1.png" media="(min-width: 1920px)">
+                        <source srcset="./img/Homepage/image_2.png" media="(min-width: 1440px)">
+                        <source srcset="./img/Homepage/image_3.png" media="(min-width: 1024px)">
+                        <source srcset="./img/Homepage/image_4.png" media="(max-width: 991px)">
+                        <source srcset="./img/Homepage/image_5.png" media="(max-width: 575px)">
+                        <img src="./img/Homepage/image_1.png" alt="man">
+                    </picture>
+                </div>
+                <div class="text_block">
+                    <div class="link">
+                        <a href="#" class="link_arrow">команда</a>
+                    </div>
+                    <h4>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4> 
+                    <p>Олександр Олександровський</p>
+                    <p class="small_size">Керуючий партнер</p>
+                </div>
             </div>
-            <h4>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4> 
-            <p>Олександр Олександровський</p>
-            <p class="small_size">Керуючий партнер</p>
-        </div>
+        </div>   
+        <div>
+            <div class="container_second">
+                <div class="photo">
+                    <picture>
+                        <source srcset="./img/Homepage/image_1.png" media="(min-width: 1920px)">
+                        <source srcset="./img/Homepage/image_2.png" media="(min-width: 1440px)">
+                        <source srcset="./img/Homepage/image_3.png" media="(min-width: 1024px)">
+                        <source srcset="./img/Homepage/image_4.png" media="(max-width: 991px)">
+                        <source srcset="./img/Homepage/image_5.png" media="(max-width: 575px)">
+                        <img src="./img/Homepage/image_1.png" alt="man">
+                    </picture>
+                </div>
+                <div class="text_block">
+                    <div class="link">
+                        <a href="#" class="link_arrow">команда</a>
+                    </div>
+                    <h4>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4> 
+                    <p>Олександр Олександровський</p>
+                    <p class="small_size">Керуючий партнер</p>
+                </div>
+            </div>
+        </div> 
+        <div>
+            <div class="container_second">
+                <div class="photo">
+                    <picture>
+                        <source srcset="./img/Homepage/image_1.png" media="(min-width: 1920px)">
+                        <source srcset="./img/Homepage/image_2.png" media="(min-width: 1440px)">
+                        <source srcset="./img/Homepage/image_3.png" media="(min-width: 1024px)">
+                        <source srcset="./img/Homepage/image_4.png" media="(max-width: 991px)">
+                        <source srcset="./img/Homepage/image_5.png" media="(max-width: 575px)">
+                        <img src="./img/Homepage/image_1.png" alt="man">
+                    </picture>
+                </div>
+                <div class="text_block">
+                    <div class="link">
+                        <a href="#" class="link_arrow">команда</a>
+                    </div>
+                    <h4>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4> 
+                    <p>Олександр Олександровський</p>
+                    <p class="small_size">Керуючий партнер</p>
+                </div>
+            </div>
+        </div> 
     </div>
-
     <div class="container_middle">
-        <div class="container_middle_item">
-            <div class="container_middle_item_circule"></div>
-            <div class="container_middle_item_circule"></div>
-            <div class="container_middle_item_circule"></div>
-        </div>
         <div class="container_middle_text">
             <p>They already trust us</p>
         </div>
     </div>
-
-    <div class="container_sponsors">
-        <img src="./img/Homepage/Item1.png" alt="Item1"/>
-        <img src="./img/Homepage/Item2.png" alt="Item2"/>
-        <img src="./img/Homepage/Item3.png" alt="Item3"/>
-        <img src="./img/Homepage/Item4.png" alt="Item4"/>
-        <img src="./img/Homepage/Item5.png" alt="Item5"/>
-        <img src="./img/Homepage/Item6.png" alt="Item6"/>
-        <img src="./img/Homepage/Item7.png" alt="Item7"/>
-        <img src="./img/Homepage/Item8.png" alt="Item8"/>
-        <img src="./img/Homepage/Item9.png" alt="Item9"/>
-        <img src="./img/Homepage/Item10.png" alt="Item10"/>
-        <img src="./img/Homepage/Item11.png" alt="Item11"/>
-        <img src="./img/Homepage/Item12.png" alt="Item12"/>
+    <div class="wow animate animate__flipOutY" data-wow-duration="10s" data-wow-delay="1s">
+        <div class="container_sponsors">
+            <img src="./img/Homepage/Item1.png" alt="Item1"/>
+            <img src="./img/Homepage/Item2.png" alt="Item2"/>
+            <img src="./img/Homepage/Item3.png" alt="Item3"/>
+            <img src="./img/Homepage/Item4.png" alt="Item4"/>
+            <img src="./img/Homepage/Item5.png" alt="Item5"/>
+            <img src="./img/Homepage/Item6.png" alt="Item6"/>
+            <img src="./img/Homepage/Item7.png" alt="Item7"/>
+            <img src="./img/Homepage/Item8.png" alt="Item8"/>
+            <img src="./img/Homepage/Item9.png" alt="Item9"/>
+            <img src="./img/Homepage/Item10.png" alt="Item10"/>
+            <img src="./img/Homepage/Item11.png" alt="Item11"/>
+            <img src="./img/Homepage/Item12.png" alt="Item12"/>
+        </div>
     </div>
 </section> 
-    
 <section class="section_bottom">
     <div class="container_bottom">
         <div class="text_gradient_bottom">
@@ -210,7 +273,6 @@
                     <p>I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
                 </div>
             </div>
-
             <div class="first_block">
                 <div class="block_img">
                         <img src="./img/Homepage/Cover2.png" alt="Cover2"/>
@@ -221,7 +283,6 @@
                     <p>And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
                 </div>
             </div>
-            
             <div class="first_block">
                 <div class="block_img">
                         <img src="./img/Homepage/Cover3.png" alt="Cover3"/>
@@ -234,7 +295,6 @@
             </div>
         </div>
     </div>
-
     <footer class="footer">
         <div class="footer_left">
             <div class="footer_left_top">
@@ -273,5 +333,21 @@
         </div>
     </footer>
 </section>
+
+<script src="./wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<script src="./slick-example/jquery.js"></script>
+<script src="./slick-example/slick/slick.min.js"></script>
+<script>
+    $('.slider').slick({
+        dots: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        dotsClass: 'container_middle_item',
+    });
+</script>
 </body>
 </html>
